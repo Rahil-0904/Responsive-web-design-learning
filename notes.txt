@@ -1,0 +1,15 @@
+<!-- This is a comment -->
+
+
+    To Add A Checkbox
+    <input type="checkbox" checked />
+    input = Attribute for elemnts
+
+    To Add a text-box 
+    <input type="text" enabled>
+
+    To Add a external element
+    <link rel="stylesheet" href="DMstyles.css" />
+    link = Attribute to link external componet
+    rel = relationship with used Attribute
+    href = Attribute to define link
