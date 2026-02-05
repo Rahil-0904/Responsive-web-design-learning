@@ -1,6 +1,27 @@
 <!-- This is a comment -->
 
+001---------- Boiler-Plate
+        <!DOCTYPE html> 
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+        <title>freeCodeCamp</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+    </body>
+    </html>
 
+    meta = element
+    charset = Attribute
+    UTF-8 = Character encoding is the method computers use to store characters as data.
+    
+
+
+002---------- Attributes in html
     To Add A Checkbox
     <input type="checkbox" checked />
     input = Attribute for elemnts
@@ -13,3 +34,4 @@
     link = Attribute to link external componet
     rel = relationship with used Attribute
     href = Attribute to define link
+
