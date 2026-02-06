@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML Audio and Video Lab</title>
+</head>
+<body>
+  <h1>HTML Audio & Video Player</h1>
+  <section>
+    <h2>what is the map method and how does it work</h2>
+    <!--video element is used to add and inteact with a video file insid a webpage
+     width = define the width of the video file
+     controls = lets the user interact with video file
+     muted = lets the video file run without audio while opening a webpage
+     source = contains the video file link or reference
+     type = describe the type of video file to browser for running support file type. 
+     loop = lets video repeat
+    -->
+    <video width="640" controls >
+      <source src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4" type="video/mp4">
+    </video>
+  </section>
+  <section>
+    <h2>sailing away</h2>
+    <!--audio element is used to add and inteact with a audio file insid a webpage
+     controls = lets the user interact with audio file
+     muted = lets the audio file run without audio while opening a webpage
+     src = contains the audio file link or reference which is a placed inside a audio element
+     type = describe the type of audio file to browser for running support file type. 
+     loop = lets video repeat
+    -->
+    <audio loop controls
+      src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mp3">
+      </audio>
+  </section>
+</body>
+</html>

@@ -35,3 +35,22 @@
     rel = relationship with used Attribute
     href = Attribute to define link
 
+003-------- SEO 
+    It SEO means Search engine optimization 
+    it referes to add meta information into webpage in order to increase the ranking in search engines
+    name = "description"  it ensures that browsers, search engines, and other web tools correctly interpret this metadata.
+    content = "website description lies here"
+
+    This all placed in meta element, as it does not get visible in webpage but in serch engine snippets
+
+    Open Graph Tags / protocol - enables to modify how the content of webpage will apper over various social media.
+    content =  is the attribute containing the visible title on social meadias
+    property = define the data type (ex - title -- is the title text )
+     Others are --  <meta property="og:title" content="...">
+                    <meta property="og:description" content="...">
+                    <meta property="og:image" content="...">
+                    <meta property="og:url" content="...">
+                    <meta property="og:type" content="website">
+
+
+    
