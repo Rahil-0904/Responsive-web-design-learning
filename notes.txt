@@ -52,5 +52,15 @@
                     <meta property="og:url" content="...">
                     <meta property="og:type" content="website">
 
+    Target Attribute / If left balnk opens the link in same window...
+    _self = Open the link in same window
+    _blank = Opens the link in another tab
+    _parent = opens in the parent frame
+    _top = opens in the full body of the window
+    _unfechedtop = which is used for the experimental FencedFrame API
 
     
+
+
+
+  
