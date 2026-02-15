@@ -1,4 +1,7 @@
-HTML Basics
+<!---------------------------------- HTML BASICS ---------------------------------------------->
+
+
+
 Role of HTML: HTML represents the content and structure of the web page.
 HTML Elements: Elements are the building blocks for an HTML document. They represent headings, paragraphs, links, images and more. Most HTML elements consist of an opening tag (<elementName>) and a closing tag (</elementName>).
 Here is the basic syntax:
@@ -47,6 +50,9 @@ div Elements: This element is a generic HTML element that does not hold any sema
 Anchor (a) Elements: These elements are used to apply links to a web page. The href attribute is used to specify where the link should go when the user clicks on it.
 <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a>
 Unordered (ul) and Ordered (ol) List Elements: To create a bulleted list of items you should use the ul element with one or more li elements nested inside like this:
+
+<!---------------------------------- HTML LIST ---------------------------------------------->
+
 <ul>
   <li>catnip</li>
   <li>laser pointers</li>
@@ -59,6 +65,7 @@ To create an ordered list of items you should use the ol element:
   <li>thunder</li>
   <li>other cats</li>
 </ol>
+
 Emphasis (em) Element: This is used to place emphasis on a piece of text.
 <p>Cats <em>love</em> lasagna.</p>  
 Strong Importance (strong) Element: This element is used to place strong emphasis on text to indicate a sense of urgency and seriousness.
@@ -77,7 +84,16 @@ footer Element: This element is placed at the bottom of the HTML document and us
     No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
   </p>
 </footer>
-Identifiers and Grouping
+
+
+
+
+<!---------------------------------- HTML IDENTIFIERS AND GROUPING ---------------------------------------------->
+
+
+
+
+
 IDs: Unique element identifiers for HTML elements. ID names should only be used once per HTML document.
 <h1 id="title">Movie Review Page</h1>
 ID names cannot have spaces. If your ID name contains multiple words then you can use dashes between the words like this:
@@ -107,7 +123,15 @@ While you can technically write all of your JavaScript code inside the script ta
 <script src="path-to-javascript-file.js"></script>
 The src attribute is used here to specify the location for that external JavaScript file.
 
-Boilerplate and Encoding
+
+
+<!---------------------------------- HTML BOILERPLATE AND ENCODING ---------------------------------------------->
+
+
+
+
+
+
 HTML boilerplate: This is a boilerplate that includes the basic structure and essential elements every HTML document needs.
 <!DOCTYPE html>
 <html lang="en">
@@ -255,7 +279,15 @@ Link states
 :active: This state applies to links that are being activated by the user. This typically means clicking on the link with the primary mouse button by left clicking, in most cases.
 
 
-Importance of Semantic HTML
+
+
+
+<!---------------------------------- IMPORTANCE OF SEMATIC HTML ---------------------------------------------->
+
+
+
+
+
 Structural hierarchy for heading elements: It is important to use the correct heading element to maintain the structural hierarchy of the content. The h1 element is the highest level of heading and the h6 element is the lowest level of heading.
 Presentational HTML elements: Elements that define the appearance of content. Ex. the deprecated center, big and font elements.
 Semantic HTML elements: Elements that hold meaning and structure. Ex. header, nav, figure.
@@ -394,7 +426,15 @@ Internal links: used to link to another section of the page by using href="#id" 
 
 
 
-  HTML Form Elements and Attributes
+
+
+
+<!---------------------------------- HTML FORM ELEMENTS AND ATTRIBUTES ---------------------------------------------->
+
+
+
+
+
 form element: used to create an HTML form for user input.
 action attribute: used to specify the URL where the form data should be sent.
 method attribute: used to specify the HTTP method to use when sending the form data. The most common methods are GET and POST.
@@ -436,6 +476,14 @@ readonly attribute: used to specify that an input field is read-only.
   disabled
 />
 
+
+
+
+<!---------------------------------- HTML BUTTONS ---------------------------------------------->
+
+
+
+
 <!-- Button -->
 <input type="button" value="Show Alert" />
 label element: used to create a label for an input field.
@@ -446,7 +494,8 @@ Implicit form association: inputs can be associated with labels by wrapping the 
     Full Name:
     <input type="text" />
   </label>
-</form>
+</form>`
+
 Explicit form association: inputs can be associated with labels by using the for attribute on the label element.
 <form action="">
   <label for="email">Email Address: </label>
@@ -493,6 +542,7 @@ Table Foot (tfoot) element: used to group the footer content in an HTML table.
 caption element: used to add a title of an HTML table.
 colspan attribute: used to specify the number of columns a table cell should span.
 <table>
+ 
   <caption>Exam Grades</caption>
 
   <thead>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+      <h1 id="title">SURVEY FORM</h1>
+      <p id="description">This is a survey form, please don't forget to fill all the necessary section</p>
+      <form id="survey-form">
+        <label id="name-label">Full Name<input id="name" type="name" placeholder="Enter your name" required/></label/><br> 
+        <label id="email-label">Email ID<input id="email" type="email" placeholder="Enter your email" required /><br>
+        <label id="number-label">Number<input id="number" type="number" min="6" max="8" placeholder="Enter the Number"/><br>
+<!---->
+        <label id="dropdown-label">What do you do in our hangout? 
+          <select id="dropdown">
+             <option value="">Have a date</option>
+            <option value="1">Have a race</option>
+         </select>
+         
+         <p>Are you sure?</p>
+  <input type="radio" name="choice" value="option1" id="opt1">
+  <label for="opt1">DAMN SURE<label>
+
+  <input type="radio" name="choice" value="option2" id="opt2">
+  <label for="opt2">RACE</label>
+
+   <p>OK Pick a bike---</p>
+  <input type="checkbox" value="RR310" id="RR310">
+  <label for="RR310">APACHE RR310</label>
+
+  <input type="checkbox" value="GT 650" id="GT 650">
+  <label for="css">RE GT 650</label>
+
+  <input type="checkbox" value="T4" id="T4">
+  <label for="T4">Triaph T4</label>
+
+   <p>Additional comments:</p>
+  <textarea placeholder="Enter your comments here"></textarea>
+
+  <button id="submit" type="submit">Submit</button>
+      </form>
+  <body></body>
+</html>
